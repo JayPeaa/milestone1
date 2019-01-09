@@ -1,0 +1,56 @@
+/*Structure code in same way as page flow*/
+
+/*---START OF BODY-----*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/vendor/images/abstract.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+
+/*----END OF BODY------*/
+
+/*-------START OF NAV-------*/
+
+.navbar-nav>li>a{
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+/*-------END OF NAV --------*/
+
+/*-------START OF HEADER IMAGE------*/
+
+.header-img {
+    display: block;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-image: url("../assets/vendor/images/monkees-cover-pic.jpg");
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*-------END OF HEADER IMAGE--------*/
