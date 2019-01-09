@@ -20,3 +20,6 @@ https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
 https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"
 
 
+##Images and Media
+
+All images and media used on this site have been labelled for reuse / non commercial and are for educational purposes only.
