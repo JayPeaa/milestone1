@@ -238,11 +238,13 @@ p {
     background-color: #e94e01;
     border: 3px solid;
     color: #f8e6c7;
+    font-family: 'Spicy Rice', cursive;
     font-size: 15px;
+    letter-spacing: 2px;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    transition: 1s;
+    transition: 0.3s;
     cursor: pointer;
 }
 
@@ -251,7 +253,9 @@ p {
     background-color: #f8e6c7;
     border: 3px solid;
     color: #e94e01;
+    font-family: 'Spicy Rice', cursive;
     font-size: 15px;
+    letter-spacing: 2px;
     padding-left: 10px;
     padding-right: 10px;
     cursor: pointer;
@@ -265,7 +269,7 @@ p {
     color: #f8e6c7;
     font-size: 20px;
     padding: 10px 30px;
-    transition: 1s;
+    transition: 0.3s;
     cursor: pointer;
     letter-spacing: 1.5px;
 }
@@ -285,18 +289,75 @@ p {
 
 /*---------END OF BUTTON EFFECTS------*/
 
+/*MUSIC PAGE*/
+
+/*----------START OF ALBUM STYLING------*/
+
+
+.static-album-pic{
+    width: 47%;
+    margin-top: 2em;
+    position: relative;
+    
+    
+}
+
+
+audio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    padding: 0;
+}
+
+
+.album-pic {
+    width: 47%;
+    margin-top: 2em;
+    border-radius: 50%;
+    position: relative;
+    animation-name: spinning;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes spinning {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+
+
+
+
+
+
+
+/*----------END OF ALBUM STYLING-------*/
+
+/*--------SART OF MEDIA QUERIES------*/
+
 @media all and (max-width: 480px) {
     .hero-text-container>h1 {
         font-size: 0.5em;
     }
-}
 
-@media all and (max-width: 480px) {
     .hero-text-container>p {
         font-size: 0.3em;
         padding-top: 1em;
     }
 }
+
+
+
 
 @media all and (max-width: 1200px) {
     #myNavbar {
@@ -325,3 +386,5 @@ p {
         justify-content: center;
     }
 }
+
+/*------END OF MEDIA QUERIES--------*/
