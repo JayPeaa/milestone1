@@ -84,7 +84,7 @@ p {
     padding-top: .2em;
     padding-left: 1em;
     color: #337ab7 !important;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .navbar-brand:hover {
@@ -132,7 +132,7 @@ p {
     border-color: #9a5688;
     font-family: 'Spicy Rice', cursive;
     font-size: 5em;
-    color: #9a5688;
+    color: #f9e9ce;
     padding-top: 10%;
     padding-bottom: 10%;
 
@@ -179,7 +179,8 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 25%;
+    margin-top: -50px;
 }
 
 
@@ -216,7 +217,7 @@ p {
 }
 
 .fa {
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .fa:hover {
@@ -271,6 +272,8 @@ p {
     transition: 0.3s;
     cursor: pointer;
     letter-spacing: 1.5px;
+    margin-top: 0;
+    
 }
 
 .btn-tickets:hover {
@@ -342,6 +345,37 @@ audio {
 /*----------END OF ALBUM STYLING-------*/
 
 /*ABOUT US PAGE*/
+
+.aboutus-header-img {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 50%;
+}
+
+.fa-arrow-down {
+    border-style: solid;
+    border-width: 3.px;
+    border-radius: 50%;
+    border-color: white;
+    text-shadow: none;
+    animation-name: flashing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes flashing {
+    from {
+        color: transparent;
+        border-color: #9a5688;
+    }
+
+    to {
+        color: #9a5688;
+        border-color: white;
+    }
+}
 
 /*-------START OF PROFILE PIC SECTION -----*/
 
@@ -455,6 +489,19 @@ audio {
     border-color: white;
 }
 
+/*-------END OF TOUR SECTION---------------*/
+
+/*------START OF CONTACT US SECTION-------*/
+
+.contactus-photo{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 15px;
+    width: 30%;
+}
+
+/*--------END OF CONTACT US SECTION-------*/
 
 
 /*--------SART OF MEDIA QUERIES------*/
