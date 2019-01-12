@@ -176,11 +176,10 @@ p {
 }
 
 .logo {
-    margin: 5em;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30%;
 }
 
 
@@ -293,17 +292,16 @@ p {
 
 /*----------START OF ALBUM STYLING------*/
 
-
-.static-album-pic{
+.static-album-pic {
     width: 47%;
     margin-top: 2em;
     position: relative;
-    
-    
+
+
 }
 
 
-audio{
+audio {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -321,7 +319,7 @@ audio{
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    
+
 }
 
 @keyframes spinning {
@@ -342,6 +340,122 @@ audio{
 
 
 /*----------END OF ALBUM STYLING-------*/
+
+/*ABOUT US PAGE*/
+
+/*-------START OF PROFILE PIC SECTION -----*/
+
+.abouUsSection p {
+    text-align: justify;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.abouUsSection {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-blend-mode: multiply;
+    width: 100vw;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.profile-pic {
+    width: 45%;
+    height: auto;
+    background-size: cover;
+    background-color: white;
+    display: inline-block;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    position: relative;
+    border-radius: 15px;
+    text-align: justify;
+    align-items: center;
+}
+
+.profile-container {
+    position: relative;
+    width: 48%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-bottom: 1em;
+
+
+}
+
+.profile-pt,
+.profile-mn,
+.profile-md,
+.profile-dj {
+    opacity: 1;
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    height: auto;
+    width: 45%;
+
+}
+
+.profile-container:hover .image {
+    opacity: 0.3;
+}
+
+.profile-container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 0.8em;
+    padding: 0.8em 0.8em;
+
+}
+
+
+
+
+/*------END OF PROFILE PIC SECTION-----*/
+
+/*TOUR PAGE*/
+
+/*----START OF TOUR SECTION------*/
+
+.video {
+    width: 95%;
+    max-width: 800px;
+    border-style: solid;
+    border-color: white;
+}
+
+
 
 /*--------SART OF MEDIA QUERIES------*/
 
