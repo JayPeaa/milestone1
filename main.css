@@ -332,7 +332,29 @@ p {
     letter-spacing: 1.5px;
 }
 
+.btn-tickets-tour{
+    border-radius: 10px;
+    background-color: #e94e01;
+    border: 3px solid;
+    color: #f8e6c7;
+    font-size: 15px;
+    padding: 5px 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    margin-top: 0;
+}
 
+.btn-tickets-tour:hover{
+    border-radius: 10px;
+    background-color: #f8e6c7;
+    color: #e94e01;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    
+}
 
 
 /*---------END OF BUTTON EFFECTS------*/
@@ -435,19 +457,10 @@ audio {
 }
 
 .profile-pic {
-    width: 45%;
-    height: auto;
     background-size: cover;
-    background-color: white;
     display: inline-block;
-    margin: 5px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 2px;
-    position: relative;
     border-radius: 15px;
-    text-align: justify;
-    align-items: center;
 }
 
 .profile-container {
@@ -460,12 +473,13 @@ audio {
 .profile-mn,
 .profile-md,
 .profile-dj {
-    opacity: 1;
     display: inline-block;
-    width: 45%;
-    height: auto;
+    width: 100%;
     transition: .5s ease;
     backface-visibility: hidden;
+    border-style: solid;
+    
+    
 
 
 }
@@ -479,9 +493,10 @@ audio {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-    height: auto;
-    width: 45%;
-
+    width: 94%;
+    
+    
+   
 }
 
 .profile-container:hover .image {
@@ -493,10 +508,14 @@ audio {
 }
 
 .text {
-    background-color: #4CAF50;
+    background-color: #3275ae;
     color: white;
     font-size: 0.8em;
     padding: 0.8em 0.8em;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
 
 }
 
@@ -518,6 +537,20 @@ audio {
     max-width: 800px;
     border-style: solid;
     border-color: white;
+    border-radius: 15px;
+}
+
+.tour-details{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.5);
+    
 }
 
 /*-------END OF TOUR SECTION---------------*/
