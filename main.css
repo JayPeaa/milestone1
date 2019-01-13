@@ -425,26 +425,13 @@ audio {
 
 /*-------START OF PROFILE PIC SECTION -----*/
 
-.abouUsSection p {
-    text-align: justify;
-    margin-left: 10em;
-    margin-right: 10em;
-}
 
 .abouUsSection {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-blend-mode: multiply;
-    width: 100vw;
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 150px;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    margin-left: 4em;
+    margin-right: 4em;
+    position: inherit;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 .profile-pic {
@@ -464,12 +451,6 @@ audio {
 }
 
 .profile-container {
-    position: relative;
-    width: 48%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
     margin-bottom: 1em;
 
 
@@ -517,6 +498,10 @@ audio {
     font-size: 0.8em;
     padding: 0.8em 0.8em;
 
+}
+
+.aboutUsText{
+    text-align: center;
 }
 
 
