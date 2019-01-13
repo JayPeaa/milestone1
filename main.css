@@ -39,9 +39,14 @@ h3 {
 }
 
 p {
-    text-transform: capitalize;
+    text-transform: none;
     font-weight: normal;
     letter-spacing: 2px;
+    color: #f9e9ce;
+}
+
+.general-paragraph{
+    text-align: justify;
 }
 
 
@@ -56,6 +61,7 @@ p {
     text-transform: uppercase;
     margin: .5em;
     padding: 1em;
+    padding-bottom: 0;
 
 
 }
@@ -107,7 +113,6 @@ p {
 #myNavbar {
     border-bottom: solid;
     border-color: #9a5688;
-    margin: -20px;
     padding: 0;
     overflow: hidden;
 }
@@ -117,6 +122,10 @@ p {
 .navlogo {
     margin: .4em;
     padding: 0;
+}
+
+.navbar-collapse{
+    border: none !important;
 }
 
 /*-------END OF NAV --------*/
@@ -135,8 +144,11 @@ p {
     color: #f9e9ce;
     padding-top: 10%;
     padding-bottom: 10%;
-
+   
+    
 }
+
+
 
 .header-image {
     border-radius: 15px;
@@ -169,6 +181,33 @@ p {
 
 /*-------END OF HEADER IMAGE--------*/
 
+
+/*-----------START OF HOME-----------*/
+
+.photo-home{
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: black;
+    width: 75%;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    
+}
+
+
+
+
+
+
+/*-----------END OF HOME-----------*/
+
+
+
 /*--------START OF GENERAL STYLING------------*/
 
 .container {
@@ -180,7 +219,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 25%;
-    margin-top: -50px;
+    margin-top: 0.5em;
 }
 
 
@@ -201,11 +240,17 @@ p {
     padding-bottom: 0;
     border-top: solid;
     border-color: #9a5688;
+    
 
 }
 
 .social-footer {
     margin-bottom: -0.1em;
+    color: white;
+}
+
+.footer-text{
+    color: white;
 }
 
 .social-links {
@@ -227,6 +272,7 @@ p {
 
 .container.subscribe-container {
     text-align: center;
+    margin-top: 2.5em;
 }
 
 /*-----------END OF FOOTER---------------*/
@@ -273,7 +319,7 @@ p {
     cursor: pointer;
     letter-spacing: 1.5px;
     margin-top: 0;
-    
+
 }
 
 .btn-tickets:hover {
@@ -493,7 +539,7 @@ audio {
 
 /*------START OF CONTACT US SECTION-------*/
 
-.contactus-photo{
+.contactus-photo {
     border-style: solid;
     border-color: black;
     border-width: 3px;
@@ -502,7 +548,6 @@ audio {
 }
 
 /*--------END OF CONTACT US SECTION-------*/
-
 
 /*--------SART OF MEDIA QUERIES------*/
 
@@ -545,6 +590,10 @@ audio {
 @media all and (max-width: 768px) {
     .form-inline {
         justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        display: inline-block;
     }
 }
 

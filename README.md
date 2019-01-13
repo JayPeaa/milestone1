@@ -23,3 +23,5 @@ https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEam
 ##Images and Media
 
 All images and media used on this site have been labelled for reuse / non commercial and are for educational purposes only.
+Dummy text about the Monkees has been taken from wikipedia and may not be particularly relvant in terms of it's content or how it relates to the page
+being viewed as the site is for educational purposes only.
