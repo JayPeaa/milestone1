@@ -45,7 +45,7 @@ p {
     color: #f9e9ce;
 }
 
-.general-paragraph{
+.general-paragraph {
     text-align: justify;
 }
 
@@ -114,7 +114,7 @@ p {
     border-bottom: solid;
     border-color: #9a5688;
     padding: 0;
-    overflow: hidden;
+    
 }
 
 
@@ -124,7 +124,7 @@ p {
     padding: 0;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     border: none !important;
 }
 
@@ -144,8 +144,8 @@ p {
     color: #f9e9ce;
     padding-top: 10%;
     padding-bottom: 10%;
-   
-    
+
+
 }
 
 
@@ -181,10 +181,9 @@ p {
 
 /*-------END OF HEADER IMAGE--------*/
 
-
 /*-----------START OF HOME-----------*/
 
-.photo-home{
+.photo-home {
     border-style: solid;
     border-radius: 20px;
     border-width: 3px;
@@ -196,7 +195,7 @@ p {
     margin-right: auto;
     margin-top: 2.5em;
     margin-bottom: 2.5em;
-    
+
 }
 
 
@@ -205,8 +204,6 @@ p {
 
 
 /*-----------END OF HOME-----------*/
-
-
 
 /*--------START OF GENERAL STYLING------------*/
 
@@ -240,7 +237,7 @@ p {
     padding-bottom: 0;
     border-top: solid;
     border-color: #9a5688;
-    
+
 
 }
 
@@ -249,7 +246,7 @@ p {
     color: white;
 }
 
-.footer-text{
+.footer-text {
     color: white;
 }
 
@@ -332,7 +329,7 @@ p {
     letter-spacing: 1.5px;
 }
 
-.btn-tickets-tour{
+.btn-tickets-tour {
     border-radius: 10px;
     background-color: #e94e01;
     border: 3px solid;
@@ -345,7 +342,7 @@ p {
     margin-top: 0;
 }
 
-.btn-tickets-tour:hover{
+.btn-tickets-tour:hover {
     border-radius: 10px;
     background-color: #f8e6c7;
     color: #e94e01;
@@ -353,7 +350,7 @@ p {
     padding: 5px 10px;
     cursor: pointer;
     letter-spacing: 1.5px;
-    
+
 }
 
 
@@ -447,7 +444,6 @@ audio {
 
 /*-------START OF PROFILE PIC SECTION -----*/
 
-
 .abouUsSection {
     margin-left: 4em;
     margin-right: 4em;
@@ -478,11 +474,14 @@ audio {
     transition: .5s ease;
     backface-visibility: hidden;
     border-style: solid;
-    
-    
-
-
+    border-color: white;
+    border-width: 3px;
 }
+
+.profile-dj {
+    padding-bottom: 6px;
+}
+
 
 .middle {
     transition: .5s ease;
@@ -494,9 +493,9 @@ audio {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     width: 94%;
-    
-    
-   
+
+
+
 }
 
 .profile-container:hover .image {
@@ -519,7 +518,7 @@ audio {
 
 }
 
-.aboutUsText{
+.aboutUsText {
     text-align: center;
 }
 
@@ -540,7 +539,7 @@ audio {
     border-radius: 15px;
 }
 
-.tour-details{
+.tour-details {
     border-style: solid;
     border-radius: 15px;
     border-color: white;
@@ -550,7 +549,7 @@ audio {
     margin-right: auto;
     padding: 1em;
     background: rgba(0, 0, 0, 0.5);
-    
+
 }
 
 /*-------END OF TOUR SECTION---------------*/
@@ -564,6 +563,42 @@ audio {
     border-radius: 15px;
     width: 30%;
 }
+
+.contact-us-form {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.form-control {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 1.5em;
+}
+
+.contact-form-address-section-border {
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    margin-top: 2em;
+    padding: 1.5em;
+    background: rgba(0, 0, 0, 0.5);
+    padding-bottom: 87px;
+
+}
+
+
+.contact-form-border {
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    margin-top: 2em;
+    padding: 1.5em;
+    background: rgba(0, 0, 0, 0.5);
+    margin-left: 0.5em;
+}
+
 
 /*--------END OF CONTACT US SECTION-------*/
 
@@ -603,9 +638,7 @@ audio {
         margin-left: 15px;
         font: inherit;
     }
-}
 
-@media all and (max-width: 768px) {
     .form-inline {
         justify-content: center;
         margin-left: auto;
