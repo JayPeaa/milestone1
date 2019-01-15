@@ -19,9 +19,7 @@ body {
     margin-right: 0px;
     padding: 0;
     padding-top: 50px;
-    background-image: url("assets/vendor/images/abstract.jpg");
-    background-color: rgba(0, 0, 0, 0.8);
-    background-blend-mode: multiply;
+    background-image: url("assets/vendor/images/abstractDarkv5.jpg");
     color: white;
     font-size: 18px;
     text-align: justify;
@@ -142,9 +140,9 @@ p {
 .jumbotron {
     margin-bottom: 0px;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("assets/vendor/images/abstract.jpg") no-repeat center center fixed;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("assets/vendor/images/abstract.jpg") no-repeat center center fixed;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("assets/vendor/images/abstract.jpg") no-repeat center center fixed;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("assets/vendor/images/abstract.jpg") no-repeat center center fixed;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("assets/vendor/images/abstractLightBlur.jpg") no-repeat center center fixed;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("assets/vendor/images/abstractLightBlur.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("assets/vendor/images/abstractLightBlur.jpg") no-repeat center center fixed;
     background-position: center;
     border-bottom: solid;
     border-color: #9a5688;
@@ -600,7 +598,7 @@ audio {
 /*----START OF TOUR SECTION------*/
 
 .video {
-    max-width: 800px;
+    max-width: 100%;
     border-style: solid;
     border-color: white;
     border-radius: 15px;

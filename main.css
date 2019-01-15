@@ -9,8 +9,6 @@ font-family: 'Thasadith', sans-serif;*/
 
 html {
     font-family: 'Spicy Rice', cursive;
-
-
 }
 
 body {
@@ -19,9 +17,7 @@ body {
     margin-right: 0px;
     padding: 0;
     padding-top: 50px;
-    background-image: url("assets/vendor/images/abstract.jpg");
-    background-color: rgba(0, 0, 0, 0.8);
-    background-blend-mode: multiply;
+    background-image: url("assets/vendor/images/abstractDarkv5.jpg");
     color: white;
     font-size: 18px;
     text-align: justify;
@@ -35,7 +31,6 @@ h3 {
     font-family: 'Spicy Rice', cursive;
     text-transform: uppercase;
     text-align: center;
-
 }
 
 p {
@@ -62,8 +57,6 @@ p {
     margin: .5em;
     padding: 1em;
     padding-bottom: 0;
-
-
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -78,7 +71,6 @@ p {
 
 .navbar-inverse .navbar-nav>.active>a {
     color: #e94e01;
-
 }
 
 
@@ -114,7 +106,6 @@ p {
     border-bottom: solid;
     border-color: #9a5688;
     padding: 0;
-
 }
 
 .navbar-inverse .navbar-nav>.active>a {
@@ -133,11 +124,13 @@ p {
 
 /*-------END OF NAV --------*/
 
+
+
 /*-------START OF HEADER IMAGE------*/
 
 .jumbotron {
     margin-bottom: 0px;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("assets/vendor/images/abstract.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("assets/vendor/images/abstractLightBlur.jpg") no-repeat center center fixed;
     background-position: center;
     border-bottom: solid;
     border-color: #9a5688;
@@ -146,14 +139,11 @@ p {
     color: #f9e9ce;
 }
 
-
-
 .header-image {
     border-radius: 15px;
     border-color: white;
     border-style: solid;
     border-width: 3px;
-
 }
 
 .hero-text-container {
@@ -162,22 +152,16 @@ p {
 
 .hero-text-container>h1 {
     font-size: 1em;
-
 }
 
 
 .hero-text-container>p {
     font-size: 0.5em;
-
 }
 
-
-
-
-
-
-
 /*-------END OF HEADER IMAGE--------*/
+
+
 
 /*-----------START OF HOME-----------*/
 
@@ -196,12 +180,9 @@ p {
 
 }
 
-
-
-
-
-
 /*-----------END OF HOME-----------*/
+
+
 
 /*--------START OF GENERAL STYLING------------*/
 
@@ -215,14 +196,11 @@ p {
     margin-right: auto;
     width: 25%;
     margin-top: 0.5em;
-
 }
 
-
-
-
-
 /*--------END OF GENERAL STYLING------------*/
+
+
 
 /*-----------START OF FOOTER---------------*/
 
@@ -236,8 +214,6 @@ p {
     padding-bottom: 0;
     border-top: solid;
     border-color: #9a5688;
-
-
 }
 
 .social-footer {
@@ -263,7 +239,6 @@ p {
 
 .fa:hover {
     color: #e94e01;
-
 }
 
 .container.subscribe-container {
@@ -273,6 +248,8 @@ p {
 }
 
 /*-----------END OF FOOTER---------------*/
+
+
 
 /*---------START OF BUTTON EFFECTS------*/
 
@@ -317,7 +294,6 @@ p {
     cursor: pointer;
     letter-spacing: 1.5px;
     margin-top: 0;
-
 }
 
 .btn-tickets:hover {
@@ -353,7 +329,6 @@ p {
     cursor: pointer;
     letter-spacing: 1.5px;
     text-decoration: none;
-
 }
 
 .btn-tickets-tour:focus {
@@ -364,6 +339,9 @@ p {
 
 /*---------END OF BUTTON EFFECTS------*/
 
+
+
+
 /*MUSIC PAGE*/
 
 /*----------START OF ALBUM STYLING------*/
@@ -372,8 +350,6 @@ p {
     width: 47%;
     margin-top: 2em;
     position: relative;
-
-
 }
 
 
@@ -385,7 +361,6 @@ audio {
     padding: 0;
 }
 
-
 .album-pic {
     width: 47%;
     margin-top: 2em;
@@ -395,7 +370,6 @@ audio {
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-
 }
 
 @keyframes spinning {
@@ -408,14 +382,10 @@ audio {
     }
 }
 
-
-
-
-
-
-
-
 /*----------END OF ALBUM STYLING-------*/
+
+
+
 
 /*ABOUT US PAGE*/
 
@@ -451,6 +421,8 @@ audio {
     }
 }
 
+/*----END OF ABOUT US PAGE-----*/
+
 /*-------START OF PROFILE PIC SECTION -----*/
 
 .abouUsSection {
@@ -470,8 +442,6 @@ audio {
 
 .profile-container {
     margin-bottom: 1em;
-
-
 }
 
 .profile-pt,
@@ -505,9 +475,6 @@ audio {
     -o-transform: translate(-50%, -50%);
     text-align: center;
     width: 94%;
-
-
-
 }
 
 .profile-container:hover .image {
@@ -527,24 +494,22 @@ audio {
     border-style: solid;
     border-color: white;
     border-width: 3px;
-
 }
 
 .aboutUsText {
     text-align: center;
 }
 
-
-
-
 /*------END OF PROFILE PIC SECTION-----*/
+
+
 
 /*TOUR PAGE*/
 
 /*----START OF TOUR SECTION------*/
 
 .video {
-    max-width: 800px;
+    max-width: 100%;
     border-style: solid;
     border-color: white;
     border-radius: 15px;
@@ -560,10 +525,12 @@ audio {
     margin-right: auto;
     padding: 1em;
     background: rgba(0, 0, 0, 0.5);
-
 }
 
 /*-------END OF TOUR SECTION---------------*/
+
+
+
 
 /*------START OF CONTACT US SECTION-------*/
 
@@ -578,7 +545,6 @@ audio {
 .contact-us-form {
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .form-control {
@@ -596,9 +562,7 @@ audio {
     padding: 1.5em;
     background: rgba(0, 0, 0, 0.5);
     height: 600px;
-
 }
-
 
 .contact-form-border {
     border-style: solid;
@@ -612,8 +576,9 @@ audio {
     height: 600px;
 }
 
-
 /*--------END OF CONTACT US SECTION-------*/
+
+
 
 /*--------SART OF MEDIA QUERIES------*/
 
@@ -629,8 +594,6 @@ audio {
 }
 
 
-
-
 @media all and (max-width: 1200px) {
     #myNavbar {
         font-size: 0.9em;
@@ -644,6 +607,7 @@ audio {
         font-size: 1.5em;
     }
 }
+
 
 @media all and (max-width: 768px) {
     input {
