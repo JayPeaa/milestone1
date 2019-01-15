@@ -19,7 +19,7 @@ body {
     margin-right: 0px;
     padding: 0;
     padding-top: 50px;
-    background-image: url("../assets/vendor/images/abstract.jpg");
+    background-image: url("assets/vendor/images/abstract.jpg");
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: multiply;
     color: white;
@@ -138,7 +138,7 @@ p {
 
 .jumbotron {
     margin-bottom: 0px;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/vendor/images/abstract.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("assets/vendor/images/abstract.jpg") no-repeat center center fixed;
     background-position: center;
     text-shadow: black 0.3em 0.3em 0.3em;
     border-bottom: solid;
