@@ -73,6 +73,8 @@ field qualities (e.g. Place holder text appears, Propmt for required fields are 
 
 All user forms display correctly and as intended on various displays / devices.
 
+Auto prixer was used to ensure CSS is compatible in multiple browsers: https://autoprefixer.github.io/
+
 # Deployment
 
 Throught the projects regular git commits were made to ensure any working files were backed up. In excess of 20 commits have been loged on the main branch in gitHub.
