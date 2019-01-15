@@ -114,10 +114,10 @@ p {
     border-bottom: solid;
     border-color: #9a5688;
     padding: 0;
-    
+
 }
 
-.navbar-inverse .navbar-nav>.active>a{
+.navbar-inverse .navbar-nav>.active>a {
     background-color: transparent;
 }
 
@@ -135,12 +135,10 @@ p {
 
 /*-------START OF HEADER IMAGE------*/
 
-
 .jumbotron {
     margin-bottom: 0px;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("assets/vendor/images/abstract.jpg") no-repeat center center fixed;
     background-position: center;
-    text-shadow: black 0.3em 0.3em 0.3em;
     border-bottom: solid;
     border-color: #9a5688;
     font-family: 'Spicy Rice', cursive;
@@ -217,7 +215,7 @@ p {
     margin-right: auto;
     width: 25%;
     margin-top: 0.5em;
-    
+
 }
 
 
@@ -314,7 +312,7 @@ p {
     border: 3px solid;
     color: #f8e6c7;
     font-size: 20px;
-    padding: 10px 30px;
+    padding: 20px 30px;
     transition: 0.3s;
     cursor: pointer;
     letter-spacing: 1.5px;
@@ -327,9 +325,10 @@ p {
     background-color: #f8e6c7;
     color: #e94e01;
     font-size: 20px;
-    padding: 20px 40px;
+    padding: 30px 60px;
     cursor: pointer;
     letter-spacing: 1.5px;
+    text-decoration: none;
 }
 
 .btn-tickets-tour {
@@ -350,10 +349,16 @@ p {
     background-color: #f8e6c7;
     color: #e94e01;
     font-size: 15px;
-    padding: 5px 10px;
+    padding: 5px 20px;
     cursor: pointer;
     letter-spacing: 1.5px;
+    text-decoration: none;
 
+}
+
+.btn-tickets-tour:focus {
+    text-decoration: none;
+    color: #f8e6c7;
 }
 
 
@@ -423,9 +428,10 @@ audio {
 
 .fa-arrow-down {
     border-style: solid;
-    border-width: 3.px;
+    border-width: 3px;
     border-radius: 50%;
     border-color: white;
+    margin-top: 0.5em;
     text-shadow: none;
     animation-name: flashing;
     animation-duration: 1s;
@@ -479,6 +485,7 @@ audio {
     border-style: solid;
     border-color: white;
     border-width: 3px;
+    color: white;
 }
 
 .profile-dj {
@@ -494,6 +501,8 @@ audio {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     text-align: center;
     width: 94%;
 
@@ -535,7 +544,6 @@ audio {
 /*----START OF TOUR SECTION------*/
 
 .video {
-    width: 95%;
     max-width: 800px;
     border-style: solid;
     border-color: white;
@@ -564,7 +572,7 @@ audio {
     border-color: black;
     border-width: 3px;
     border-radius: 15px;
-    width: 50%;
+    width: 44%;
 }
 
 .contact-us-form {
@@ -652,20 +660,20 @@ audio {
         display: inline-block;
         width: 75%
     }
-    
-    .navbar-nav{
+
+    .navbar-nav {
         margin: 0;
     }
-    
-    .row{
+
+    .row {
         margin: 0;
     }
-    
-    .contactus-photo{
+
+    .contactus-photo {
         width: 80%;
     }
-    
-    .logo{
+
+    .logo {
         width: 50%;
     }
 }
