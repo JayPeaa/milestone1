@@ -1,16 +1,13 @@
-/*Structure code in same way as page flow*/
+/*Each section of code has a clearly defined start and end section for ease of use.  Each page also has it's own section for additional organisation*/
 
-/*Font Families: 
-font-family: 'Coiny', cursive;
-font-family: 'Spicy Rice', cursive;
-font-family: 'Thasadith', sans-serif;*/
+/*Font Family: 
+font-family: 'Spicy Rice', cursive;*/
+
 
 /*---START OF BODY-----*/
 
 html {
     font-family: 'Spicy Rice', cursive;
-
-
 }
 
 body {
@@ -25,7 +22,6 @@ body {
     text-align: justify;
 }
 
-
 p,
 h1,
 h2,
@@ -33,7 +29,6 @@ h3 {
     font-family: 'Spicy Rice', cursive;
     text-transform: uppercase;
     text-align: center;
-
 }
 
 p {
@@ -47,8 +42,9 @@ p {
     text-align: justify;
 }
 
-
 /*----END OF BODY------*/
+
+
 
 /*-------START OF NAV-------*/
 
@@ -60,8 +56,6 @@ p {
     margin: .5em;
     padding: 1em;
     padding-bottom: 0;
-
-
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -73,15 +67,11 @@ p {
 
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #e94e01;
-
 }
 
 .navbar-inverse .navbar-nav>.active>a {
     color: #e94e01;
-
 }
-
-
 
 .navbar-brand {
     font-family: 'Spicy Rice', cursive;
@@ -116,13 +106,11 @@ p {
     border-bottom: solid;
     border-color: #9a5688;
     padding: 0;
-
 }
 
 .navbar-inverse .navbar-nav>.active>a {
     background-color: transparent;
 }
-
 
 .navlogo {
     margin: .4em;
@@ -134,6 +122,8 @@ p {
 }
 
 /*-------END OF NAV --------*/
+
+
 
 /*-------START OF HEADER IMAGE------*/
 
@@ -151,14 +141,11 @@ p {
     color: #f9e9ce;
 }
 
-
-
 .header-image {
     border-radius: 15px;
     border-color: white;
     border-style: solid;
     border-width: 3px;
-
 }
 
 .hero-text-container {
@@ -167,22 +154,15 @@ p {
 
 .hero-text-container>h1 {
     font-size: 1em;
-
 }
-
 
 .hero-text-container>p {
     font-size: 0.5em;
-
 }
 
-
-
-
-
-
-
 /*-------END OF HEADER IMAGE--------*/
+
+
 
 /*-----------START OF HOME-----------*/
 
@@ -198,15 +178,11 @@ p {
     margin-right: auto;
     margin-top: 2.5em;
     margin-bottom: 2.5em;
-
 }
 
-
-
-
-
-
 /*-----------END OF HOME-----------*/
+
+
 
 /*--------START OF GENERAL STYLING------------*/
 
@@ -220,14 +196,11 @@ p {
     margin-right: auto;
     width: 25%;
     margin-top: 0.5em;
-
 }
 
-
-
-
-
 /*--------END OF GENERAL STYLING------------*/
+
+
 
 /*-----------START OF FOOTER---------------*/
 
@@ -241,8 +214,6 @@ p {
     padding-bottom: 0;
     border-top: solid;
     border-color: #9a5688;
-
-
 }
 
 .social-footer {
@@ -282,6 +253,8 @@ p {
 }
 
 /*-----------END OF FOOTER---------------*/
+
+
 
 /*---------START OF BUTTON EFFECTS------*/
 
@@ -368,7 +341,6 @@ p {
     cursor: pointer;
     letter-spacing: 1.5px;
     text-decoration: none;
-
 }
 
 .btn-tickets-tour:focus {
@@ -376,8 +348,10 @@ p {
     color: #f8e6c7;
 }
 
-
 /*---------END OF BUTTON EFFECTS------*/
+
+
+
 
 /*MUSIC PAGE*/
 
@@ -387,10 +361,7 @@ p {
     width: 47%;
     margin-top: 2em;
     position: relative;
-
-
 }
-
 
 audio {
     display: block;
@@ -399,7 +370,6 @@ audio {
     margin-top: 1.5em;
     padding: 0;
 }
-
 
 .album-pic {
     width: 47%;
@@ -441,14 +411,10 @@ audio {
     }
 }
 
-
-
-
-
-
-
-
 /*----------END OF ALBUM STYLING-------*/
+
+
+
 
 /*ABOUT US PAGE*/
 
@@ -520,7 +486,10 @@ audio {
 .profile-container {
     margin-bottom: 1em;
 
+}
 
+.profileText{
+    color: white;
 }
 
 .profile-pt,
@@ -544,7 +513,6 @@ audio {
     padding-bottom: 6px;
 }
 
-
 .middle {
     -webkit-transition: .5s ease;
     -o-transition: .5s ease;
@@ -559,9 +527,6 @@ audio {
     -o-transform: translate(-50%, -50%);
     text-align: center;
     width: 94%;
-
-
-
 }
 
 .profile-container:hover .image {
@@ -581,17 +546,15 @@ audio {
     border-style: solid;
     border-color: white;
     border-width: 3px;
-
 }
 
 .aboutUsText {
     text-align: center;
 }
 
-
-
-
 /*------END OF PROFILE PIC SECTION-----*/
+
+
 
 /*TOUR PAGE*/
 
@@ -614,10 +577,11 @@ audio {
     margin-right: auto;
     padding: 1em;
     background: rgba(0, 0, 0, 0.5);
-
 }
 
 /*-------END OF TOUR SECTION---------------*/
+
+
 
 /*------START OF CONTACT US SECTION-------*/
 
@@ -650,9 +614,7 @@ audio {
     padding: 1.5em;
     background: rgba(0, 0, 0, 0.5);
     height: 600px;
-
 }
-
 
 .contact-form-border {
     border-style: solid;
@@ -666,8 +628,9 @@ audio {
     height: 600px;
 }
 
-
 /*--------END OF CONTACT US SECTION-------*/
+
+
 
 /*--------SART OF MEDIA QUERIES------*/
 
