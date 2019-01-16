@@ -1,11 +1,10 @@
 # Milestone Project 1 - Build a site to promote a rock band.
 
-The project is based on promoting a band to showcase HTML and CSS skills learned so far as part of the code institute online diploma. In this project it is assumed that 
-The Monkees are a current band and not from the 60's although the site and styling is 60s themed. 
+The project is based on promoting a band to showcase HTML and CSS skills learned so far as part of the code institute online diploma. 
 
 ## UX
 
-The project has been designed with the end user in mind.  The end user being members of the public who either wish to purchase tickets or book the band for a private event.
+The project has been designed with the end user in mind.  The end user being members of the public (fans or potential fans) who either wish to purchase tickets or book the band for a private event.
 The flow of the site has been created in a traditional style with clear navigation and a large 'call to action' button (Get Tickets) placed in the header of the home screen.  This call to action button occupies prime real estate in order to drive ticket sales and contains a hover effect to drive the 'click through rate' and increase conversions.  This aspect of the site recognises its commercial nature whilst enhancing the user experience by making it easy to acquire tickets within a couple of clicks.
 
 A user may wish to perform the following actions:
@@ -31,6 +30,8 @@ The main features of the site are:
 * Social Media for marketing and engagement purposes
 * Contact Form for ease of communication
 * Animation to enhance user experience, drive engagement, increase click-through and drive conversions and sales
+
+Additional social media channels such have been included in the footer for discussion with the client for additioanl value. This can be easily removed if not required.
 
 ## Future development
 
@@ -62,7 +63,7 @@ Testing has been conducted using google dev tools. Thorough testing in all the v
 that this site works well in all modern-day browsers and mobile devices. As part of the testing process each page has been reviewed systematically to ensure all links
 work as intended and the pages display correctly.  
 
-This testing has confirmed that users will be able to utilise the site as intended, on any device to achieve their goals whilst enjoying the experience and customer journey.
+This testing has confirmed that users will be able to utilise the site as intended on any device (in landscape or portrait mode) to achieve their goals whilst enjoying the experience and customer journey.
 
 At this stage any forms are front end only in line with the project scope and currently do not function. These forms have only been tested for responsiveness and field qualities (e.g. Place holder text appears, Prompt for required fields are correctly displayed) at this stage.
 
@@ -101,6 +102,7 @@ The project has been organised in the following structure:
         * audio (folder)
         * images (folder)
         * video (folder)
+    * css
         
 The HTML files, Main.css and README.md are located within the main project folder.
 

@@ -3,7 +3,6 @@
 /*Font Family: 
 font-family: 'Spicy Rice', cursive;*/
 
-
 /*---START OF BODY-----*/
 
 html {
@@ -43,8 +42,6 @@ p {
 }
 
 /*----END OF BODY------*/
-
-
 
 /*-------START OF NAV-------*/
 
@@ -123,8 +120,6 @@ p {
 
 /*-------END OF NAV --------*/
 
-
-
 /*-------START OF HEADER IMAGE------*/
 
 .jumbotron {
@@ -162,8 +157,6 @@ p {
 
 /*-------END OF HEADER IMAGE--------*/
 
-
-
 /*-----------START OF HOME-----------*/
 
 .photo-home {
@@ -182,8 +175,6 @@ p {
 
 /*-----------END OF HOME-----------*/
 
-
-
 /*--------START OF GENERAL STYLING------------*/
 
 .container {
@@ -199,8 +190,6 @@ p {
 }
 
 /*--------END OF GENERAL STYLING------------*/
-
-
 
 /*-----------START OF FOOTER---------------*/
 
@@ -247,14 +236,10 @@ p {
 .container.subscribe-container {
     text-align: center;
     margin-top: 2.5em;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 /*-----------END OF FOOTER---------------*/
-
-
 
 /*---------START OF BUTTON EFFECTS------*/
 
@@ -350,9 +335,6 @@ p {
 
 /*---------END OF BUTTON EFFECTS------*/
 
-
-
-
 /*MUSIC PAGE*/
 
 /*----------START OF ALBUM STYLING------*/
@@ -377,44 +359,41 @@ audio {
     border-radius: 50%;
     position: relative;
     -webkit-animation-name: spinning;
-            animation-name: spinning;
+    animation-name: spinning;
     -webkit-animation-duration: 5s;
-            animation-duration: 5s;
+    animation-duration: 5s;
     -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
+    animation-timing-function: linear;
 
 }
 
 @-webkit-keyframes spinning {
     from {
         -webkit-transform: rotate(0deg);
-                transform: rotate(0deg)
+        transform: rotate(0deg)
     }
 
     to {
         -webkit-transform: rotate(360deg);
-                transform: rotate(360deg)
+        transform: rotate(360deg)
     }
 }
 
 @keyframes spinning {
     from {
         -webkit-transform: rotate(0deg);
-                transform: rotate(0deg)
+        transform: rotate(0deg)
     }
 
     to {
         -webkit-transform: rotate(360deg);
-                transform: rotate(360deg)
+        transform: rotate(360deg)
     }
 }
 
 /*----------END OF ALBUM STYLING-------*/
-
-
-
 
 /*ABOUT US PAGE*/
 
@@ -433,13 +412,13 @@ audio {
     margin-top: 0.5em;
     text-shadow: none;
     -webkit-animation-name: flashing;
-            animation-name: flashing;
+    animation-name: flashing;
     -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    animation-duration: 1s;
     -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
+    animation-timing-function: linear;
 }
 
 @-webkit-keyframes flashing {
@@ -488,7 +467,7 @@ audio {
 
 }
 
-.profileText{
+.profileText {
     color: white;
 }
 
@@ -497,12 +476,12 @@ audio {
 .profile-md,
 .profile-dj {
     display: inline-block;
-    width: 100%;
+    width: 80%;
     -webkit-transition: .5s ease;
     -o-transition: .5s ease;
     transition: .5s ease;
     -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
+    backface-visibility: hidden;
     border-style: solid;
     border-color: white;
     border-width: 3px;
@@ -513,7 +492,7 @@ audio {
     padding-bottom: 6px;
 }
 
-.middle {
+.profile-text-container {
     -webkit-transition: .5s ease;
     -o-transition: .5s ease;
     transition: .5s ease;
@@ -526,14 +505,14 @@ audio {
     -webkit-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     text-align: center;
-    width: 94%;
+    width: 73%;
 }
 
 .profile-container:hover .image {
     opacity: 0.3;
 }
 
-.profile-container:hover .middle {
+.profile-container:hover .profile-text-container {
     opacity: 1;
 }
 
@@ -553,8 +532,6 @@ audio {
 }
 
 /*------END OF PROFILE PIC SECTION-----*/
-
-
 
 /*TOUR PAGE*/
 
@@ -580,8 +557,6 @@ audio {
 }
 
 /*-------END OF TOUR SECTION---------------*/
-
-
 
 /*------START OF CONTACT US SECTION-------*/
 
@@ -643,9 +618,83 @@ audio {
         font-size: 0.3em;
         padding-top: 1em;
     }
+
+    .album-pic {
+        width: 60%;
+    }
 }
 
+@media all and (max-width: 640px) {
+    .hero-text-container>h1 {
+        font-size: 0.5em;
+    }
 
+    .hero-text-container>p {
+        font-size: 0.3em;
+        padding-top: 1em;
+    }
+
+    .profile-pt,
+    .profile-mn,
+    .profile-md,
+    .profile-dj {
+        width: 53%;
+    }
+
+    .profile-text-container {
+        width: 49%;
+        font-size: 15px;
+    }
+
+    .video {
+        width: 79%;
+    }
+
+    .album-pic {
+        width: 37%;
+    }
+
+    .static-album-pic {
+        width: 35%;
+    }
+
+}
+
+@media all and (max-width: 731px) {
+    .hero-text-container>h1 {
+        font-size: 0.5em;
+    }
+
+    .hero-text-container>p {
+        font-size: 0.3em;
+        padding-top: 1em;
+    }
+
+    .profile-pt,
+    .profile-mn,
+    .profile-md,
+    .profile-dj {
+        width: 53%;
+    }
+
+    .profile-text-container {
+        width: 49%;
+        font-size: 15px;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .album-pic {
+        width: 37%;
+    }
+
+    .static-album-pic {
+        width: 35%;
+    }
+
+}
 
 
 @media all and (max-width: 1200px) {
@@ -662,6 +711,7 @@ audio {
     }
 }
 
+
 @media all and (max-width: 768px) {
     input {
         margin: 25px;
@@ -670,9 +720,7 @@ audio {
     }
 
     .form-inline {
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        justify-content: center;
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -693,6 +741,31 @@ audio {
     }
 
     .logo {
+        width: 50%;
+    }
+}
+
+
+@media all and (max-width: 414px) {
+    .profile-pt,
+    .profile-mn,
+    .profile-md,
+    .profile-dj {
+        width: 100%;
+    }
+
+    .profile-text-container {
+        width: 88%;
+        font-size: 15px;
+    }
+}
+
+
+@media all and (max-width: 360px) {
+    .album-pic {
+        width: 60%;
+    }
+    .static-album-pic {
         width: 50%;
     }
 }
