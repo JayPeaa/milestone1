@@ -37,6 +37,8 @@ The main features of the site are:
 Future features may include the use of the google maps API for each of the venues in the tour section which can be used in conjunction with google Maps for navigation and additional UX benefits.
 The flashing down arrow in the header section (indicating more content below) will include some additional JavaScript code to enable the user to click the icon to be taken to the next section with a scroll effect.
 
+In addition pluging this theme into a fully content managed system such as Joomla or Wordpress would make updating its content easier and more efficient for the band to manage.
+
 # Technologies
 
 The site is built using HTML and CSS and any CDN / Library usage is documented below:
