@@ -90,7 +90,7 @@ The project has been successfully deployed on GitHub pages.  There is only one m
 
 AWS cloud9 has been used throughout this project as the IDE of choice.  
 
-GitHub Pages Address: https://jaypeaa.github.io/milestone1final/
+GitHub Pages Address: https://jaypeaa.github.io/milestone1/
 
 # File Structure
 
